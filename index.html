@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width", initial-scale=1"><!--responsywność-->
+      <link rel="stylesheet" href="./style.css"><!--css-->
+      <title>Menu</title>
+    </head>
+    <body>
+        
+        <nav class="navbar"><!--Nagłówek-->
+            <div class="navbar_container"><!--logo oraz pasek nawigacyjny-->
+                <a href="#" id="navbar_logo">Explore for more</a><!--logo-->
+                <div class="navbar_toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navbar_menu"><!--pasek nawigacyjny-->
+                    <li class="navbar_item">
+                        <a href="#" class="navbar_links" id="home-page">Home</a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="#bibliotek" class="navbar_links" id="biblioteka-page">Library</a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="#autorzy" class="navbar_links" id="autorzy-page">Author</a>
+                    </li>
+                    <ul class="navbar_menu_container">
+                        <li class="navbar_contact">
+                            <a href="#" class="button" id="login-page">Sign in</a>
+                        </li>                       
+                    </ul>
+                </ul>
+            </div>
+        </nav><!--Nagłówek-->
+
+        <div class="hero" id="home">
+            <section class="wrapper">
+                <div id="stars"></div>
+                <div id="stars2"></div>
+                <div id="stars3"></div>
+                </section>
+            <div class="hero_container">
+                <h1 class="hero_heading">Great help from heaven</h1>
+                <p class="hero_description">"Nothing is impossible. Impossible is for someone, who give up!"~Kenneth Boegh Andersen
+                </p>
+                <button class="main_btn"><a href="#">News</a></button>
+            </div>
+        </div>
+
+        <div class="biblioteka" id="bibliotek">
+            <h1>Biblioteka</h1>
+            <div class="biblioteka_wrapper"><!--miejsce po click menu-biblioteka-->
+                
+                <div class="biblioteka_card">
+                    <h2>Egzamin EE.08</h2>
+                    <div class="biblioteka_btn"><a href="/C:/Users/pyza1/Desktop/projects/website%20_S/Website/Biblioteka/ee.08/ee.08.html#"><button>Click for more</button></a></div>
+                </div>
+
+                <div class="biblioteka_card">
+                    <h2>Egzamin INF.03</h2>
+                    <div class="biblioteka_btn"><a href="#"><button>Click for more</button></a></div>
+                </div>
+
+                <div class="biblioteka_card">
+                    <h2>Bazy Danych</h2>
+                    <div class="biblioteka_btn"><a href="#"><button>Click for more</button></a></div>
+                </div>
+
+                <div class="biblioteka_card">
+                    <h2>Języki programowania</h2>
+                    <div class="biblioteka_btn"><a href="#"><button>Click for more</button></a></div>
+                </div>
+            
+            </div>
+        </div>
+
+        <div class="autorzy" id="autorzy"><!--autorzy-->
+            <div class="autorzy_container">
+                <div class="autorzy_content">
+                    <h1>A few words about author</h1>
+                    <p>
+                       He is common person with dreams about work as software developer.                      
+                    </p>
+                </div>
+                <div class="autorzy_img-container">
+                    <div class="autorzy_img-content">
+                        <img id="autorzy_img" src="./photos/sad.jpg"/>
+                    </div>
+                </div>              
+            </div>
+        </div>
+    <script src="menu.js"></script>
+    </body>
+</html>
